@@ -2,6 +2,9 @@
 import js from "@eslint/js";
 
 export default [
+  {
+    ignores: ["dist/**", "node_modules/**"],
+  },
   js.configs.recommended,
   {
     files: ["**/*.js"],
@@ -9,6 +12,7 @@ export default [
       globals: {
         document: "readonly",
         window: "readonly",
+        console: "readonly",
       },
     },
   },
