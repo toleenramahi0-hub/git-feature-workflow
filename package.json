@@ -1,0 +1,29 @@
+{
+  "name": "git-feature-workflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toleenramahi0-hub/git-feature-workflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/toleenramahi0-hub/git-feature-workflow/issues"
+  },
+  "homepage": "https://github.com/toleenramahi0-hub/git-feature-workflow#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "vite": "^8.3.4"
+  }
+}
